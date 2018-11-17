@@ -34,49 +34,13 @@ describe('github-user-search App', () => {
    		browser.sleep(2000);
 
    		browser.switchTo().activeElement();
-
    		expect(page.getMovie1Title()).toEqual('Title: Dil Chahta Hai').then()
    		
    		page.getMovie1Releasedat();
    		page.clickOnclose();
    		browser.sleep(2000);
 
-   		//-----------------------------
-   		page.clearSearchkeyword1();
-   		page.getMovieinfo2_enterKeyword();
-   		browser.sleep(3000);
-   		page.selectMoviefromList();
-   		page.clickonMovieviewDetails();
-   		browser.sleep(2000);
-
-
-
-   		browser.switchTo().activeElement();
-
-   		page.getMovie1Title();
-
-   		page.getMovie1Releasedat();
-   		page.clickOnclose();
-   		browser.sleep(2000);
-//----------------------------------------------------
-
-		page.clearSearchkeyword1();
-   		page.getMovieinfo3_enterKeyword();
-   		browser.sleep(3000);
-   		page.selectMoviefromList();
-   		page.clickonMovieviewDetails();
-   		browser.sleep(2000);
-
-
-
-   		browser.switchTo().activeElement();
-
-   		page.getMovie1Title();
-
-   		page.getMovie1Releasedat();
-   		page.clickOnclose();
-   		browser.sleep(2000);
-
+   		
   });
 
 });
